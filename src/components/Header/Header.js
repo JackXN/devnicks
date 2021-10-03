@@ -16,13 +16,14 @@ function Header() {
           top: 0,
           left: 0,
           width: "100%",
-          height: "100%"
+          height: "100%",
         }}
       >
         <Particle />
-      <Box sx={styles.headerContent}>
-
-      </Box>
+      <Flex sx={styles.headerContent}>
+<Image src={Logo} alt='Logo' sx={styles.logo}/>
+<Text as='h1' sx={styles.title}>Devnics <span style={{fontWeight:'300', fontFamily: 'poppins,sans-serif', color:'#FFC19A'}}>Services</span></Text>
+      </Flex>
       </div>
       </Box>
 </>
@@ -33,21 +34,35 @@ function Header() {
 
 const styles = {
     headerContainer: {
-        height:  '50vh',
+        height:  '80vh',
         width: '100%',
         borderRadius:'0 0 50% 50%/0 0 100% 100%',
         transform:'scaleX(1.5)',
-        position: 'absolute',
-        left: '0',
-        top: '0',
         display: 'flex',
+        direction: 'column',
+        justify:'center',
+
+        textTransform: 'uppercase'
     
     },
     headerContent: {
-display: 'flex',
 alignItems:'center',
-justifyContent:'center',
 textAlign: 'center',
+justifyContent:'center',
+flexDirection:'column',
+mt:'125px',
+    },
+    logo: {
+        width:'100px',
+        height:'149px'
+        
+    },
+    title: {
+fontFamily: 'poppins,sans-serif',
+fontWeight:'500',
+fontSize: '24px',
+color: 'white',
+
     }
 }
 
