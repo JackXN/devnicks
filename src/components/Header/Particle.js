@@ -8,7 +8,7 @@ function Particle() {
             top: 0,
             left: 0,
             width: "100%",
-            height: "100%"
+            height: "100%",
         }}
         >
             <Particles
@@ -18,14 +18,14 @@ function Particle() {
 	        "number": {
 	            "value": 140,
 	            "density": {
-	                "enable": true
+	                "enable": false
 	            }
 	        },
 	        "size": {
 	            "value": 3,
 	            "random": true,
 	            "anim": {
-	                "speed": 4,
+	                "speed": 1,
 	                "size_min": 0.3
 	            }
 	        },
@@ -42,8 +42,8 @@ function Particle() {
 	    "interactivity": {
 	        "events": {
 	            "onhover": {
-	                "enable": false,
-	                "mode": "bubble"
+	                "enable": true,
+	                "mode": "repulse"
 	            },
 	            "onclick": {
 	                "enable": false,
@@ -54,11 +54,11 @@ function Particle() {
 	            "bubble": {
 	                "distance": 250,
 	                "duration": 2,
-	                "size": 0,
-	                "opacity": 0
+	                "size": 5,
+	                "opacity": 2
 	            },
 	            "repulse": {
-	                "distance": 400,
+	                "distance": 100,
 	                "duration": 4
 	            }
 	        }

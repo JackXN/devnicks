@@ -3,6 +3,8 @@ import {Box,Text, Flex, Container, Image} from '@chakra-ui/react';
 import Particles from 'react-particles-js';
 import Particle from './Particle';
 import { stubArray } from 'lodash';
+import Data from './HeaderData';
+
 
 
 const Logo = '/DLogo.jpeg';
@@ -10,7 +12,7 @@ const Logo = '/DLogo.jpeg';
 function Header() {
     return (
 <>
-      <Box style={{background: `url("/HeaderImg.jpeg")`}} sx={styles.headerContainer}>
+      <Box style={{background: `url("/HeaderImg.jpeg")`, backgroundPosition: 'center'}} sx={styles.headerContainer}>
       <div
         style={{
           position: "absolute",
@@ -18,6 +20,7 @@ function Header() {
           left: 0,
           width: "100%",
           height: "100%",
+          background: 'rgba(0,0,0,0.3)'
         }}
       >
         <Particle />
@@ -37,15 +40,13 @@ By using our fully custom, easy to use ticket system you will for sure have your
 
 const styles = {
     headerContainer: {
-        height:  '80vh',
+        height:  '50vh',
         width: '100%',
-        borderRadius:'0 0 15% 15%/0  20% 20%',
+        borderRadius:'0 0 25% 25%/0  100% 100%',
         display: 'flex',
         direction: 'column',
         justify:'center',
-
-        textTransform: 'uppercase'
-    
+        textTransform: 'uppercase',
     },
     headerContent: {
 alignItems:'center',
@@ -59,20 +60,26 @@ mt:'125px',
         
     },
     title: {
-fontFamily: 'poppins,sans-serif',
+fontFamily: 'Poppinskz,sans-serif',
 fontWeight:'500',
 color: 'white',
+fontSize: '24px',
+letterSpacing: '0.2rem',
+
     },
     description: {
         maxWidth: '400px',
         fontSize: '10px',
-        maxWidth: '600px',
+        maxWidth: ['350px', '420px'],
         color:'white',
         fontSize: '13px',
         textTransform: 'capitalize',
-        lineHeight: '25px',
+        lineHeight: '1.5',
         fontFamily: 'Poppins,sans-serif',
         fontWeight: '300',
+        letterSpacing: '1.3px',
+        mt: '20px',
+        
     }
 }
 
