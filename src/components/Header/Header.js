@@ -10,9 +10,20 @@ function Header() {
     return (
 <>
       <Box style={{background: `url("/HeaderImg.jpeg")`}} sx={styles.headerContainer}>
-          <div id='particles-js'>
-      
-    </div>
+      <div
+        style={{
+          position: "absolute",
+          top: 0,
+          left: 0,
+          width: "100%",
+          height: "100%"
+        }}
+      >
+        <Particle />
+      <Box sx={styles.headerContent}>
+
+      </Box>
+      </div>
       </Box>
 </>
    
@@ -32,7 +43,7 @@ const styles = {
         display: 'flex',
     
     },
-    wrapper: {
+    headerContent: {
 display: 'flex',
 alignItems:'center',
 justifyContent:'center',
