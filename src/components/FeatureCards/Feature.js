@@ -1,5 +1,5 @@
 import React from 'react'
-import {Flex,Container, Box, Text, Grid} from '@chakra-ui/react';
+import {Flex,Container, Box, Text, Grid, GridItem} from '@chakra-ui/react';
 import FeatureCardColumn from './FeatureCardColumn';
 
 
@@ -46,6 +46,7 @@ const data = [
         <Box sx={styles.card}>
 {data.map((item) => (
     // eslint-disable-next-line react/jsx-key
+    <Grid sx={styles.grid} templateColumns='repeat(1fr)'>
     <Box sx={styles.feature}>
 <FeatureCardColumn
 key={item.id}
@@ -54,7 +55,7 @@ description={item.description}
 imgSrc={item.imgSrc}
 />
 </Box>
-
+</Grid>
 ))}
             </Box>
 
@@ -63,19 +64,20 @@ imgSrc={item.imgSrc}
 
 const styles ={
     card: {
-border:'solid 2px orange',
 display: 'flex',
-flexDirection:'column',
+flexDirection:['column', 'column', 'column', 'row'],
+alignItems:'center',
+justifyContent:'center',
     },
  
 
- grid: {
-    border: 'solid red 2px'
+ grid: { 
  }, 
  feature: {
-     border: 'solid red 1px',
-     padding:'-20px',
-     display: 'flex'
+
+     display: 'flex',
+        alignItems:'center',
+     justifyContent:'center'
  }
 }
 

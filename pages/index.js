@@ -8,7 +8,7 @@ import Head from 'next/head';
 import Header from '../src/components/Header/Header';
 import Wave from '../src/components/Wave';
 import Hero from '../src/components/Hero/Hero';
-
+import theme from "../src/theme/index";
 export default function Home() {
   return (
    <>

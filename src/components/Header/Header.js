@@ -57,6 +57,7 @@ alignItems:'center',
 textAlign: 'center',
 justifyContent:'center',
 flexDirection:'column',
+mt: '50px',
     },
     logo: {
     height: '100px',

@@ -14,6 +14,8 @@ function Hero() {
 const styles = {
 heroContainer: {
     display:'flex',
+    justifyContent:'center',
+    alignItems:'center',
 
 }
 }
