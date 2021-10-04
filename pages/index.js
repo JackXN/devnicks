@@ -24,16 +24,11 @@ export default function Home() {
 <link rel="preconnect" href="https://fonts.gstatic.com"/>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet"/>
 </Head>
-  <Header style={{height: '20vh'}}/>
+  <Header style={{height: '20vh', }}/>
 {/* <Wave topColor="orange" bottomColor="#ffffff" hashPreset={3} /> */}
 <Box style={{height: '100vh'}}>
   <Hero/>
 </Box>
-
-
-
-
-
   </>
   )
 }

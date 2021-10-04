@@ -20,7 +20,6 @@ function Header() {
           left: 0,
           width: "100%",
           height: "100%",
-          background: 'rgba(0,0,0,0.3)'
         }}
       >
         <Particle />
@@ -43,17 +42,21 @@ const styles = {
         height:  '50vh',
         width: '100%',
         borderRadius:'0 0 25% 25%/0  100% 100%',
-        display: 'flex',
-        direction: 'column',
+        
+        
         justify:'center',
         textTransform: 'uppercase',
+        
+
+
+       
+        
     },
     headerContent: {
 alignItems:'center',
 textAlign: 'center',
 justifyContent:'center',
 flexDirection:'column',
-mt:'125px',
     },
     logo: {
     height: '100px',

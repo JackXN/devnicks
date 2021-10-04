@@ -1,11 +1,22 @@
 import React from 'react'
+import Feature from '../FeatureCards/Feature';
+import {Box} from '@chakra-ui/react';
 
 function Hero() {
     return (
-        <div>
-            <h1>This is the hero section</h1>
-        </div>
+   <Box sx={styles.heroContainer}>
+            <Feature/>
+            </Box>
     )
 }
+
+
+const styles = {
+heroContainer: {
+    display:'flex',
+
+}
+}
+
 
 export default Hero
