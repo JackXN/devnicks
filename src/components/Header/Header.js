@@ -42,11 +42,11 @@ const styles = {
         height:  '50vh',
         width: '100%',
         borderRadius:'0 0 25% 25%/0  100% 100%',
-        
+        mb:'50px',
         
         justify:'center',
         textTransform: 'uppercase',
-        
+
 
 
        
@@ -57,6 +57,7 @@ alignItems:'center',
 textAlign: 'center',
 justifyContent:'center',
 flexDirection:'column',
+
 mt: '50px',
     },
     logo: {
