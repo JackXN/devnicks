@@ -5,11 +5,12 @@ function Particle() {
         <div
         style={{
             position: "absolute",
-            top: 0,
+            top: -2,
             left: 0,
             width: "100%",
             height: "50%",
 			overflow: 'hidden',
+			borderRadius:'20 '
         }}
         >
             <Particles

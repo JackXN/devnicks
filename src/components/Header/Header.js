@@ -39,11 +39,10 @@ By using our fully custom, easy to use ticket system you will for sure have your
 
 const styles = {
     headerContainer: {
-        height:  '50vh',
+        height:  '70vh',
         width: '100%',
-        borderRadius:'0 0 25% 25%/0  100% 100%',
-        mb:'50px',
-        
+        borderRadius:['0 10% 10%','0 0 50% 50%/0  100% 100%'],
+        mb:['100px',],
         justify:'center',
         textTransform: 'uppercase',
 
@@ -57,7 +56,6 @@ alignItems:'center',
 textAlign: 'center',
 justifyContent:'center',
 flexDirection:'column',
-
 mt: '50px',
     },
     logo: {
@@ -84,6 +82,7 @@ letterSpacing: '0.2rem',
         fontWeight: '300',
         letterSpacing: '1.3px',
         mt: '20px',
+        
         
     }
 }

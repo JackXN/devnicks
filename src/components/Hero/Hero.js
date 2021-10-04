@@ -16,6 +16,8 @@ heroContainer: {
     display:'flex',
     justifyContent:'center',
     alignItems:'center',
+    position:'relative',
+   bottom:['90px', '90px']
 
 }
 }
