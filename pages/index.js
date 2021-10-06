@@ -9,8 +9,8 @@ import Header from '../src/components/Header/Header';
 import Wave from '../src/components/Wave';
 import Hero from '../src/components/Hero/Hero';
 import theme from "../src/theme/index";
-
-const Bg = '/dottedbackground.png'
+import Services from '../src/components/Services/Services';
+export const Bg = '/dottedbackground.png'
 export default function Home() {
   return (
    <>
@@ -31,6 +31,7 @@ export default function Home() {
 {/* <Wave topColor="orange" bottomColor="#ffffff" hashPreset={3} /> */}
 <Box style={{height: '100vh'}}>
   <Hero/>
+  <Services/>
 </Box>
 </div>
   </>

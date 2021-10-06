@@ -1,6 +1,21 @@
 import  {ChakraProvider} from '@chakra-ui/react';
-import theme from '../src/theme/index';
+import { extendTheme } from "@chakra-ui/react"
 // import "../public/styles/Slider.css"
+
+const theme = extendTheme({
+  colors: {
+    brand: {
+      100: "#f7fafc",
+      // ...
+      900: "blue",
+    },
+    primary: {
+    'wtf': '#F47F39',
+      gray: '#787878',
+      white: '#fffff'
+    }
+  },
+})
 
 function MyApp({ Component, pageProps }) {
   return (
