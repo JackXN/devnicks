@@ -17,8 +17,8 @@ heroContainer: {
     justifyContent:'center',
     alignItems:'center',
     position:'relative',
-   bottom:['90px', '90px']
-
+   bottom:['20px', '50px','35px', '60px', '90px'],
+   background:'#121313'
 }
 }
 

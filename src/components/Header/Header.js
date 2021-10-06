@@ -39,28 +39,24 @@ By using our fully custom, easy to use ticket system you will for sure have your
 
 const styles = {
     headerContainer: {
-        height:  '70vh',
+        height:  '70vh', 
         width: '100%',
         borderRadius:['0 10% 10%','0 0 50% 50%/0  100% 100%'],
         mb:['100px',],
         justify:'center',
         textTransform: 'uppercase',
-
-
-
-       
-        
     },
     headerContent: {
 alignItems:'center',
 textAlign: 'center',
 justifyContent:'center',
 flexDirection:'column',
-mt: '50px',
+mt: ['10px' ,'50px', '50px', '100px',],
+padding: '20px',
+
     },
     logo: {
     height: '100px',
-        
     },
     title: {
 fontFamily: 'Poppinskz,sans-serif',
