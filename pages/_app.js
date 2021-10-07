@@ -10,9 +10,9 @@ const theme = extendTheme({
       900: "blue",
     },
     primary: {
-    'wtf': '#F47F39',
-      gray: '#787878',
-      white: '#fffff'
+    'orange': '#F47F39',
+      'gray': '#787878',
+      'white': '#fffff'
     }
   },
 })
