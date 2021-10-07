@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-key */
 import React from 'react'
 
 
@@ -38,11 +39,13 @@ const data = [
 ]
 
 
+
+
+
+
 function ServiceCard() {
     return (
-        <div>
-            
-        </div>
+       
     )
 }
 
