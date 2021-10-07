@@ -45,7 +45,7 @@ const data = [
 
 function ServiceCard() {
     return (
-       
+       <h1>Blank</h1>
     )
 }
 
