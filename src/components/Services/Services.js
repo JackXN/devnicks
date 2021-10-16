@@ -113,7 +113,7 @@ const styles ={
         flexDirection: ['column', null, null, null ,'row'],
         alignItems:'center',
         textAlign:'center',
-        padding: '30px',
+        padding: '50px',
         maxWidth: '900px'
     },
     cardTitle: {

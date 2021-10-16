@@ -74,7 +74,6 @@ justifyContent:'center',
  grid: { 
  }, 
  feature: {
-
      display: 'flex',
         alignItems:'center',
      justifyContent:'center'

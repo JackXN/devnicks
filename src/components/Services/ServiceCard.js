@@ -35,7 +35,7 @@ const data = [
         imageSrc: 'GoldPick',
         title: 'Building',
         description: 'Our builders can build anywhere from a small hut to a huge spawn!'
-    }
+    },
 ]
 
 
